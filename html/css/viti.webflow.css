@@ -1,0 +1,1671 @@
+body {
+  overflow: visible;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #fff;
+  background-image: none;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0px;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  color: #2d3338;
+  font-size: 69px;
+  line-height: 54px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: none;
+}
+
+h2 {
+  margin: 0px 0px 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+  text-shadow: none;
+}
+
+h3 {
+  margin: 5px 0px;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+  text-shadow: none;
+}
+
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+p {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  float: none;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  color: #000;
+  font-size: 29px;
+  line-height: 62px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0px;
+  text-transform: none;
+  text-shadow: none;
+}
+
+.footer-section {
+  position: relative;
+  left: 0px;
+  top: auto;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  display: block;
+  margin: 0px auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: hsla(44, 11%, 73%, .59);
+  color: #000;
+  font-size: 15px;
+}
+
+.copyright {
+  position: static;
+  display: block;
+  margin: 0px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.about {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 0px;
+  background-color: hsla(0, 0%, 100%, .6);
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  overflow: hidden;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-bottom: 2px solid #000;
+  background-color: #fff;
+}
+
+.about-link {
+  padding-top: 43px;
+  padding-bottom: 43px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-container {
+  border-bottom: 0px none #000;
+  background-color: #fff;
+}
+
+.icon {
+  display: block;
+  width: 250px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.mission-statement {
+  display: inline-block;
+  margin-top: 0px;
+  padding-left: 0px;
+  float: left;
+  color: #000;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: none;
+}
+
+.brand-title {
+  margin-left: 0px;
+  padding: 13px 10px 13px 95px;
+  float: left;
+  background-color: transparent;
+  background-image: url('https://viti.ca/images/viti%20smll_1.png');
+  background-position: 0px 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #000;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.brand-title.w--current {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 95px;
+}
+
+.contact {
+  margin-top: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: transparent;
+}
+
+.contact-title {
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 0px 25px;
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+  font-size: 37px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.contact-details {
+  display: inline;
+  padding-right: 5px;
+  padding-left: 0px;
+  float: none;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  text-shadow: none;
+}
+
+.contact-details.social {
+  display: inline;
+  margin-top: 25px;
+  margin-left: 0px;
+  padding-right: 5px;
+  float: none;
+  border-left: 1px none #000;
+  color: #fff;
+  text-align: left;
+}
+
+.conference-heading {
+  position: static;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  float: none;
+  font-family: Vollkorn, serif;
+  color: #000;
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 400;
+  text-shadow: none;
+}
+
+.conference-heading.honour {
+  float: right;
+}
+
+.conference {
+  margin-top: 10%;
+  margin-bottom: 40px;
+}
+
+.twitter {
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  background-color: transparent;
+}
+
+.advisory-heading {
+  display: block;
+  margin: 0px auto;
+  padding: 10px 20px;
+  background-color: hsla(44, 11%, 73%, .59);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #000;
+  font-size: 40px;
+  line-height: 60px;
+  text-shadow: 1px 1px 6px #fff;
+}
+
+.contact-column {
+  padding: 60px 10px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.detail-column {
+  padding-left: 0px;
+}
+
+.midsection {
+  background-color: transparent;
+}
+
+.email-signup {
+  display: inline-block;
+  margin: 30px auto 15px;
+}
+
+.email-input {
+  display: block;
+  width: 335px;
+  height: 35px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.submi-button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.journal-body {
+  overflow: visible;
+  background-color: transparent;
+}
+
+.email-field {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+
+.div1 {
+  float: left;
+}
+
+.testtest {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: inline;
+  height: auto;
+  min-height: 0px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-top: 106px;
+  padding-bottom: 0px;
+}
+
+.mask {
+  position: static;
+  display: block;
+  overflow: visible;
+  height: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slidernav {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparent;
+}
+
+.window {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  overflow: hidden;
+  height: 600px;
+  margin-top: 0px;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.block-quote {
+  display: block;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: hsla(0, 0%, 100%, .5);
+  font-size: 180px;
+  line-height: 110px;
+  text-transform: none;
+}
+
+.services-para {
+  display: block;
+  margin-top: 140px;
+  margin-bottom: 0px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  border-left: 1px solid #000;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.form-header {
+  padding-bottom: 10px;
+  font-family: 'PT Sans', sans-serif;
+  color: #000;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.email-form {
+  display: block;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.bio-input {
+  height: 140px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.title {
+  display: block;
+  float: none;
+  border-radius: 5px;
+  opacity: 0.8;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.journaltest {
+  overflow: hidden;
+  height: auto;
+  margin-top: 106px;
+  background-color: transparent;
+  background-image: url('../images/Journal Cover.png');
+  background-position: 50% 50%;
+  background-size: 805px;
+  background-repeat: no-repeat;
+}
+
+.vancouver {
+  background-image: url('../images/test2.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.viti {
+  background-image: url('../images/Journal Cover.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vitj {
+  display: block;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 20px 50px;
+  float: left;
+  border-style: none;
+  border-right-width: 1px;
+  border-right-color: #000;
+  border-left-width: 1px;
+  border-left-color: #000;
+}
+
+.para {
+  display: block;
+  padding-left: 0px;
+  float: none;
+}
+
+.banner {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 2000;
+  display: block;
+  overflow: visible;
+  margin: 120px auto 0px;
+  padding: 0px;
+  background-color: purple;
+  font-family: 'Varela Round', sans-serif;
+  color: #000;
+  font-size: 25px;
+}
+
+.banner-cont {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: gold;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  background-color: purple;
+  font-family: Vollkorn, serif;
+  color: gold;
+}
+
+.bannerdiv {
+  display: none;
+}
+
+.buy-now {
+  position: static;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-top: 9px;
+  float: none;
+  border: 2px solid gold;
+  border-radius: 10px;
+  background-color: #000;
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.phone {
+  display: inline;
+  padding: 0px;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.important {
+  display: inline;
+  float: none;
+  text-align: center;
+}
+
+.bold1 {
+  color: #000;
+}
+
+.mainconftab {
+  border-left: 1px solid gold;
+  background-color: purple;
+  font-family: Vollkorn, serif;
+  color: gold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.mainconftab.w--current {
+  border-top: 1px solid gold;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: purple;
+  color: #000;
+}
+
+.info {
+  display: block;
+  height: auto;
+  margin-bottom: 50px;
+  padding-left: 0px;
+  float: none;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.conftab {
+  height: auto;
+  background-color: transparent;
+}
+
+.tab-menu {
+  margin-bottom: 25px;
+  background-color: purple;
+}
+
+.testimg {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  display: none;
+  padding-left: 50px;
+  float: right;
+}
+
+.board {
+  z-index: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url('../images/Elven.jpg');
+  background-position: 0px -16px;
+  background-size: 80px;
+  background-repeat: repeat-x;
+}
+
+.advisor {
+  display: block;
+  margin-left: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top: 1px solid #000;
+  border-bottom: 1px none #000;
+  background-color: #c8c8c8;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+
+.anowar {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #000;
+  background-color: #c8c8c8;
+  background-image: url('../images/Papa.jpg');
+  background-position: 0px 50%;
+  background-size: 134px;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  text-align: center;
+}
+
+.anowar.advisor {
+  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px none #000;
+  border-bottom: 1px none #000;
+  background-color: hsla(44, 11%, 73%, .59);
+  background-image: none;
+}
+
+.mcgee.advisor {
+  border-bottom: 1px none #000;
+  background-image: url('../images/McGee.png');
+  background-position: 0px 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hamid.advisor {
+  background-image: url('../images/Ghafur.png');
+  background-position: 100% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.qureshi.advisor {
+  background-image: url('../images/Qureshi.png');
+  background-position: 100% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.giovanni.advisor {
+  background-image: url('../images/giovanni.jpg');
+  background-position: 100% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lee.advisor {
+  background-image: url('../images/Lee.png');
+  background-position: 0px 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.halili.advisor {
+  background-image: url('../images/Halili.png');
+  background-position: 100% 50%;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.rahim.advisor {
+  background-image: url('../images/Rodzman.png');
+  background-position: 100% 50%;
+  background-size: 144px;
+  background-repeat: no-repeat;
+}
+
+.rogers.advisor {
+  background-image: url('../images/Vikki.png');
+  background-position: 100% 50%;
+  background-size: 140px;
+  background-repeat: no-repeat;
+}
+
+.arif.advisor {
+  background-image: url('../images/Zuhaira.png');
+  background-position: 100% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.about-page {
+  overflow: visible;
+  height: 1600px;
+}
+
+.mondal.advisor {
+  background-image: url('../images/mondol.png');
+  background-position: 0px 50%;
+  background-size: 120px;
+  background-repeat: no-repeat;
+}
+
+.advisory-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #333;
+}
+
+.script1.advisor {
+  display: none;
+  margin-bottom: 0px;
+  padding: 15px 70px;
+  border-top: 1px none #000;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.anowarimg {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+  margin-right: 300px;
+  padding-top: 0px;
+  padding-right: 0px;
+  float: right;
+}
+
+.social {
+  margin-top: 20px;
+  border-left: 1px solid #fff;
+}
+
+.main {
+  border-left: 1px solid #fff;
+}
+
+.dewan.advisor {
+  background-image: url('../images/Hasnat Dewan 7.jpg');
+  background-position: 0px 50%;
+  background-size: 130px;
+  background-repeat: no-repeat;
+}
+
+.krishnan.advisor {
+  background-image: url('../images/Mr Krishnan.jpg');
+  background-position: 0px 50%;
+  background-size: 130px;
+  background-repeat: no-repeat;
+}
+
+.lorimer.advisor {
+  background-image: url('../images/LorimerSQ.png');
+  background-position: 0px 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.trent.advisor {
+  background-image: url('../images/Beth Trent.png');
+  background-position: 0px 0px;
+  background-size: 140px;
+  background-repeat: no-repeat;
+}
+
+.navarro.advisor {
+  background-image: url('../images/Chandri.png');
+  background-position: 100% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.journalhead {
+  margin-top: 10%;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  font-size: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.journal-intro {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding: 50px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px none #000;
+  background-color: #fff;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, .5);
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.subhead {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  text-transform: none;
+}
+
+.opening-banner {
+  height: auto;
+  padding-top: 100px;
+}
+
+.register-section {
+  background-color: purple;
+}
+
+.theme-container {
+  height: auto;
+}
+
+.theme {
+  height: auto;
+  margin-bottom: 30px;
+  font-family: 'Great Vibes', cursive;
+  color: gold;
+  font-weight: 400;
+}
+
+.theme-call {
+  padding-left: 150px;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: gold;
+  text-align: left;
+}
+
+.conference-section {
+  background-image: url('../images/VITCompass.png');
+  background-position: 100% 100%;
+  background-size: 450px;
+  background-repeat: no-repeat;
+}
+
+.program-outline {
+  background-color: #262c46;
+}
+
+.program-heading {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 100px;
+  border-style: solid solid none;
+  border-width: 2px;
+  border-color: rgba(57, 202, 105, .89);
+  font-family: 'Great Vibes', cursive;
+  color: #fff;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.program-heading:hover {
+  border-color: #0098ff;
+}
+
+.program {
+  display: none;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  border-style: none solid solid;
+  border-width: 2px;
+  border-color: rgba(57, 202, 105, .89);
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.speakers {
+  padding-top: 10px;
+  background-image: url('../images/Elven_1.jpg');
+  background-position: 0px 0px;
+  background-size: 80px;
+  box-shadow: 0 0 32px 0 #fff;
+}
+
+.speakers-container {
+  background-color: hsla(44, 11%, 73%, .59);
+}
+
+.speakerimg {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border: 1px none #000;
+  border-radius: 200px;
+}
+
+.speakerimg:active {
+  border: 5px none #1abc9c;
+}
+
+.speakerimg:focus {
+  border: 5px solid #1abc9c;
+}
+
+.speakerimg._1 {
+  border: 3px solid #000;
+}
+
+.speakerimg.s1 {
+  border: 2px solid #000;
+}
+
+.speakerimg.s2 {
+  border: 2px solid #b33030;
+}
+
+.speakerimg.s3 {
+  border: 2px solid #e60606;
+}
+
+.speakerimg.s4 {
+  border: 2px solid #e7c720;
+}
+
+.speakerimg.s5 {
+  border: 2px solid #17611d;
+}
+
+.speakerimg.s6 {
+  border: 2px solid #241ce6;
+}
+
+.speakerimg.s7 {
+  border: 2px solid #1abc9c;
+}
+
+.speakerimg.s8 {
+  border: 2px solid #6b087e;
+}
+
+.speakers-heading {
+  margin-top: 0px;
+  background-color: #0098ff;
+}
+
+.speakerdescription {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 46px;
+  background-color: hsla(44, 11%, 73%, .8);
+  color: #000;
+  font-size: 16px;
+}
+
+._1.speakerdescription {
+  display: none;
+  padding-right: 20px;
+  border: 2px solid #000;
+}
+
+._2.speakerdescription {
+  display: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 2px solid #b33030;
+}
+
+._3.speakerdescription {
+  display: none;
+  padding-right: 20px;
+  border: 2px solid #e60606;
+}
+
+._4.speakerdescription {
+  display: none;
+  padding-right: 20px;
+  border: 2px solid #e7c720;
+}
+
+._5.speakerdescription {
+  display: none;
+  padding-right: 20px;
+  border: 2px solid #17611d;
+}
+
+._6.speakerdescription {
+  display: none;
+  padding-right: 20px;
+  border: 2px solid #241ce6;
+}
+
+._7.speakerdescription {
+  display: none;
+  padding-right: 20px;
+  border: 2px solid #1abc9c;
+}
+
+._8.speakerdescription {
+  display: none;
+  padding-right: 20px;
+  border: 2px solid #6b087e;
+}
+
+.headsub {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #b8860b;
+  box-shadow: 0 0 8px 0 #000;
+}
+
+.headsub a {
+  color: #000;
+  text-decoration: none;
+}
+
+.headsub a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.savjord.advisor {
+  background-image: url('../images/Mylan.jpg');
+  background-position: 100% 50%;
+  background-size: 140px;
+  background-repeat: no-repeat;
+}
+
+.eagar.advisor {
+  background-image: url('../images/manie_headshot2.png');
+  background-position: 0px 50%;
+  background-size: 140px;
+  background-repeat: no-repeat;
+}
+
+.honourtext {
+  display: none;
+  overflow: visible;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  float: none;
+  background-color: hsla(44, 11%, 73%, .59);
+  color: #000;
+  text-align: center;
+}
+
+.honourheading {
+  margin-top: 50px;
+  float: left;
+  font-family: Vollkorn, serif;
+  color: #000;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  p {
+    float: none;
+    text-shadow: none;
+  }
+  .footer-section {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .copyright {
+    position: relative;
+  }
+  .navbar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    overflow: visible;
+  }
+  .about-link {
+    box-shadow: inset 0 0 8px 0 #000;
+  }
+  .nav-container {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+  }
+  .icon {
+    display: inline;
+    color: #000;
+  }
+  .menu-button {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    float: none;
+    border-left: 1px none #000;
+  }
+  .menu-button:hover {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+  .menu-button.w--open {
+    position: static;
+    left: auto;
+    top: auto;
+    right: 0px;
+    bottom: 0px;
+    overflow: visible;
+    clear: none;
+    background-color: #fff;
+    box-shadow: inset 0 0 8px 0 #000;
+  }
+  .mission-statement {
+    text-shadow: none;
+  }
+  .brand-title {
+    text-shadow: none;
+  }
+  .open-nav {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: visible;
+    clear: none;
+    background-color: #fff;
+  }
+  .conference-heading {
+    font-size: 60px;
+    line-height: 60px;
+    text-shadow: none;
+  }
+  .conference-heading.honour {
+    font-size: 50px;
+  }
+  .twitter {
+    display: inline;
+    float: none;
+  }
+  .mask {
+    height: 946px;
+  }
+  .window {
+    overflow: hidden;
+  }
+  .block-quote {
+    display: block;
+    overflow: visible;
+    float: none;
+  }
+  .journaltest {
+    height: auto;
+    background-image: url('../images/Journal Cover.png');
+    background-position: 100% 0px;
+    background-size: 805px;
+    background-repeat: no-repeat;
+  }
+  .vitj {
+    display: inline-block;
+    margin-top: 0px;
+    float: none;
+  }
+  .banner {
+    display: none;
+  }
+  .buy-now {
+    position: relative;
+    z-index: 100;
+  }
+  .tab-menu {
+    display: block;
+  }
+  .anowarimg {
+    display: none;
+  }
+  .social {
+    padding-left: 10px;
+    text-align: left;
+  }
+  .main {
+    padding-left: 10px;
+    text-align: left;
+  }
+  .journal-intro {
+    position: static;
+    display: block;
+    margin-top: 0px;
+  }
+  .conference-section {
+    background-position: 100% 50%;
+  }
+  .honourheading {
+    font-size: 69px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-top: 0px;
+  }
+  p {
+    font-size: 27px;
+    text-shadow: none;
+  }
+  .footer-section {
+    position: relative;
+    left: 0px;
+    top: 100px;
+    right: 0px;
+    bottom: 0px;
+    height: 90px;
+    margin-bottom: 0px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: #fff;
+  }
+  .copyright {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 500;
+  }
+  .icon {
+    color: #000;
+  }
+  .menu-button {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
+  }
+  .mission-statement {
+    text-shadow: none;
+  }
+  .contact-details {
+    text-align: center;
+  }
+  .contact-details.social {
+    text-align: center;
+  }
+  .conference-heading {
+    font-size: 40px;
+    line-height: 40px;
+    text-shadow: none;
+  }
+  .conference-heading.honour {
+    margin-bottom: 0px;
+    float: none;
+  }
+  .mask {
+    height: 707px;
+  }
+  .journaltest {
+    height: auto;
+    background-image: url('../images/Journal Cover.png');
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  .para {
+    float: none;
+  }
+  .info {
+    padding-right: 20px;
+    padding-left: 20px;
+    float: none;
+    text-align: justify;
+  }
+  .testimg {
+    display: none;
+  }
+  .social {
+    border-left: 1px none #000;
+    text-align: center;
+  }
+  .main {
+    border-left: 1px none #000;
+    text-align: center;
+  }
+  .journal-intro {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .conference-section {
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .honourcontainer {
+    margin-top: 13px;
+  }
+  .honourheading {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    float: none;
+  }
+}
+
+@media (max-width: 479px) {
+  body {
+    overflow: visible;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 31px;
+    text-shadow: none;
+  }
+  p {
+    padding-left: 0px;
+    float: none;
+    font-size: 20px;
+    line-height: 61px;
+    text-shadow: none;
+  }
+  .footer-section {
+    position: fixed;
+    left: 0px;
+    top: auto;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: none;
+    border-top: 2px solid #000;
+  }
+  .copyright {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 23px;
+    display: block;
+    margin-bottom: 2px;
+    border-style: none;
+    text-align: center;
+  }
+  .about {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    float: none;
+    clear: none;
+  }
+  .navbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .about-link {
+    position: static;
+    display: block;
+    overflow: visible;
+    float: none;
+    clear: none;
+    direction: ltr;
+    text-align: center;
+    text-decoration: none;
+  }
+  .about-link.w--current {
+    text-align: center;
+  }
+  .nav-container {
+    position: static;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 2px solid #000;
+  }
+  .icon {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+  }
+  .menu-button {
+    position: static;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    overflow: visible;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    float: none;
+    border-left-style: none;
+    border-left-width: 0px;
+  }
+  .menu-button.w--open {
+    position: relative;
+    left: 0px;
+    top: -240px;
+    bottom: 0px;
+    z-index: 0;
+    overflow: visible;
+    clear: both;
+  }
+  .mission-statement {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: none;
+  }
+  .brand-title {
+    display: block;
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 115px;
+    line-height: 29px;
+    text-shadow: none;
+  }
+  .brand-title.w--current {
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    padding-left: 120px;
+  }
+  .open-nav {
+    position: fixed;
+    left: 65px;
+    top: 54px;
+    right: 0px;
+    bottom: -3px;
+    overflow: auto;
+    float: left;
+    clear: both;
+  }
+  .conference-heading {
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: none;
+  }
+  .email-signup {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .email-input {
+    position: static;
+    display: block;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 12px;
+    float: none;
+  }
+  .journal-body {
+    overflow: visible;
+    background-image: url('../images/Journal Cover.png');
+    background-position: 0px 0px;
+    background-size: 805px;
+  }
+  .mask {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    height: 700px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .slidernav {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-top: 50px;
+  }
+  .window {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    text-align: center;
+    text-transform: none;
+  }
+  .block-quote {
+    overflow: visible;
+  }
+  .services-para {
+    position: relative;
+    top: 100px;
+    bottom: auto;
+  }
+  .email-form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .journaltest {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow: visible;
+    height: 511px;
+    margin-top: 0px;
+    background-image: none;
+  }
+  .vancouver {
+    display: block;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    clear: none;
+  }
+  .viti {
+    background-image: url('../images/Journal Cover.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+  }
+  .vitj {
+    position: relative;
+    left: 0px;
+    top: 50px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .banner {
+    display: none;
+    margin-top: 200px;
+  }
+  .buy-now {
+    display: inline-block;
+  }
+  .conference-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .board {
+    left: 0px;
+    top: 100px;
+    padding-right: 10px;
+  }
+  .anowar.advisor {
+    position: relative;
+    top: 100px;
+  }
+  .advisory-section {
+    position: relative;
+    top: 100px;
+  }
+  .journalhead {
+    margin-top: 0px;
+    padding-top: 250px;
+  }
+  .journal-intro {
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+  .subhead {
+    margin-bottom: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+	box-shadow: inset 0 0 29px 0 #000;
+  }
+  .opening-banner {
+    padding-top: 230px;
+  }
+  .conference-section {
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .honourheading {
+    line-height: 50px;
+  }
+}
+
